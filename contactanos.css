@@ -54,11 +54,19 @@ h1{
     box-shadow:0 5px 20px rgba(0,0,0,.08);
 
 }
+
+.interiorFormulario{
+    padding: 30px;
+    border-radius: 15px;
+    background-color: white;
+}
+
 /* le da estructura a los cambos del formulario */
 .grupo{
     display:flex;
     flex-direction:column;
-    margin-bottom:25px;
+    margin-bottom: 1000px;
+
 }
 
 label{
