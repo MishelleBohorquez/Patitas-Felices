@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Patitas Felices - Inicio</title>
 </head>
 
@@ -22,48 +23,43 @@
             <img src="https://img.lalr.co/cms/2023/04/12162245/Perro-123F.jpg?r=1_1" alt="Perro inicial">
         </section>
 
-        <section class="perros-destacados">
-            <h2>Perritos buscando un hogar</h2>
-            <p>Conoce a nuestros amigos perrunos para ir a casa</p>
-            <article class="tarjeta-perro">
-                <div class="texto-perro">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHYPXNx_P3COJp6T-MF1lgWxwDCULhe-1q2JvpHrrTY-VnK4NvFofcmDYN&s=10"
-                        alt="Max, perro de 2 años">
-                    <h3>Max - 2 Años</h3>
-                    <p>Max es un perrito juguetón, cariñoso y lleno de energía. Le encanta pasear por el parque y se
-                        lleva genial con niños y otros animales.</p>
-                </div>
-
-            </article>
-
-            <article class="tarjeta-perro">
-                <div class="texto-perro">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQigGqRSZZ0fNKvpS3qMEGqhA-bFr1-4zUlJv8SAICzgEWfFSRvpq3ilwU&s=10"
-                        alt="Luna, perrita de 1 año">
-                    <h3>Luna - 1 Año</h3>
-                    <p>Luna es tranquila, obediente y muy consentida. Fue rescatada de las calles y busca un hogar donde
-                        le den mucho amor.</p>
-                </div>
-
-            </article>
-
-
-            <article class="tarjeta-perro">
-                <div class="texto-perro">
-                    <img src="https://preview.redd.it/pj4pzjeshqgd1.jpg?width=640&crop=smart&auto=webp&s=170cf1c936187e24ad8a78022ab3a312972926f9"
-                        alt="Lucas, perrito de 6 meses">
-                    <h3>Lucas - 6 Meses</h3>
-                    <p>Lucas, muy juguetón, cariñoso y le encanta pasear. Es ideal para familias activas.</p>
-                </div>
-
-            </article>
-        </section>
+<!-- Bootstrap -->
 
         <section class="beneficios">
             <h2>¿Por qué elegir la adopción?</h2>
             <p>Al adoptar en Patitas Felices no solo le das un hogar a un perro que lo necesita, sino que también
                 combates el abandono y haces espacio para que podamos rescatar a más animales.</p>
         </section>
+
+        <div class="card-group">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHYPXNx_P3COJp6T-MF1lgWxwDCULhe-1q2JvpHrrTY-VnK4NvFofcmDYN&s=10" class="card-img-top" alt="Max, perro de 2 años" width="20px" height="300px">
+                <div class="card-body">
+                    <h5 class="card-title">Max - 2 Años</h5>
+                    <p class="card-text">Max es un perrito juguetón, cariñoso y lleno de energía. Le encanta pasear por el parque y se lleva genial con niños y otros animales.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQigGqRSZZ0fNKvpS3qMEGqhA-bFr1-4zUlJv8SAICzgEWfFSRvpq3ilwU&s=10" class="card-img-top" alt="Max, perro de 2 años" width="20px" height="300px">
+                <div class="card-body">
+                    <h5 class="card-title">Luna - 1 Año</h5>
+                    <p class="card-text">Luna es tranquila, obediente y muy consentida. Fue rescatada de las calles y busca un hogar donde le den mucho amor.
+                    </p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://preview.redd.it/pj4pzjeshqgd1.jpg?width=640&crop=smart&auto=webp&s=170cf1c936187e24ad8a78022ab3a312972926f9" alt="Lucas, perrito de 6 meses" width="300px" height="300px">
+                <div class="card-body">
+                    <h5 class="card-title">Lucas - 6 Meses</h5>
+                    <p class="card-text">TLucas, muy juguetón, cariñoso y le encanta pasear. Es ideal para familias activas.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+
+ <!-- Bootstrap -->
 
     </main>
 
@@ -101,6 +97,8 @@
             </button>
         </div>
     </header>
+
+
     <footer class="pie-pagina">
         <section class="integrantes">
             <p class="persona1">Bejarano Felipe Adrian</p>
@@ -117,6 +115,8 @@
         </div>
     </footer>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 
 </html>
