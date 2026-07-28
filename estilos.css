@@ -238,8 +238,17 @@ body {
        flex-wrap: wrap;
        gap: 30px;
 }
+.card-img{
+  display: flex;
+  z-index: -1;
+  width: 1200px;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 15px;
+}
 .integrantes {
   display: flex;
+  position: absolute;
   flex-direction: column;
   gap: 8px;
 }
